@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",
+        sans-serif;;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.user-container{
+    margin: 80px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ .my-table {
+     border-collapse: collapse;
+     width: 100%;
+     border-radius: 10px;
+     overflow: hidden;
+     margin-top: 30px;
+ }
+
+ 
+ .my-table td {
+     border: 1px solid #ddd;
+     text-align: left;
+     padding: 10px;
+ }
+
+ .my-table th {
+     background-color: #4a91ee;
+     color: white;
+     border: none;
+     border: 1px solid #ddd;
+     text-align: left;
+     padding: 15px 20px;
+ }
+
+ img{
+    border-radius: 50%;
+    width: 60px;
+ }
+
+
+
+ /* //spinner element */
+.spinner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* .user-container{
+    
+    -webkit-box-shadow: -9px 21px 62px -23px rgba(0, 0, 0, 0.51);
+        -moz-box-shadow: -9px 21px 62px -23px rgba(0, 0, 0, 0.51);
+        box-shadow: -9px 21px 62px -23px rgba(0, 0, 0, 0.51);
+} */
