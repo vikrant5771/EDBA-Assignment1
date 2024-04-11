@@ -1,0 +1,78 @@
+/* .wrapper{
+    
+    box-sizing: border-box;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color:rgb(0, 76, 255);
+    justify-content: center;
+} */
+
+ .wrapper {
+     box-sizing: border-box;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     background: linear-gradient(to right, #ff7e5f, #feb47b, #ffdb99, #fff6b2, #d5ffae, #b2ffce, #99f1ff, #b2c2ff, #d599ff, #ff99f5, #ff7e5f);
+     background-size: 200% auto;
+     animation: gradientBackground 10s ease infinite;
+ }
+
+ @keyframes gradientBackground {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100%{
+        background-position: 0% 50%;
+     }
+ }
+
+.form-data{
+    background-color: aliceblue;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: center;
+    -webkit-box-shadow: 26px 18px 83px -6px rgba(158, 153, 158, 1);
+        -moz-box-shadow: 26px 18px 83px -6px rgba(158, 153, 158, 1);
+        box-shadow: 26px 18px 83px -6px rgba(158, 153, 158, 1);
+        
+    
+    
+}
+
+input{
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+    -webkit-box-shadow: 0px 0px 26px 2px rgba(153, 162, 163, 1);
+        -moz-box-shadow: 0px 0px 26px 2px rgba(153, 162, 163, 1);
+        box-shadow: 0px 0px 26px 2px rgba(153, 162, 163, 1);
+        
+}
+
+#button{
+    width: 20%;
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+
+label{
+    position: relative;
+    right:150px;
+    top: 25px;
+
+}
